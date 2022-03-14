@@ -9,6 +9,7 @@ import Venues from './components/pages/Venues';
 import Signup from './components/pages/Signup';
 
 
+
 function App() {
   const [data, setData] = React.useState(null);
 
@@ -23,6 +24,7 @@ function App() {
         <Route exact path='/venues' element={<Venues/>} />
         <Route exact path='/spotlight' element={<Spotlight/>} />
         <Route exact path='/signup' element={<Signup/>} />
+   
       </Routes>
     </Router>
     </>
