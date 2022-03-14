@@ -1,1 +1,1 @@
-![homepage]
+![homepage](https://github.com/kyleFagnan/Venue-verdict/blob/master/public/images/homepage.png?raw=true)
