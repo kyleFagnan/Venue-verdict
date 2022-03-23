@@ -7,7 +7,6 @@ import HeroSection from './components/HeroSection';
 import Spotlight from './components/pages/Spotlight';
 import Venues from './components/pages/Venues';
 import Signup from './components/pages/Signup';
-import VenuePages from './components/VenuePages';
 
 
 
@@ -25,7 +24,6 @@ function App() {
         <Route exact path='/venues' element={<Venues/>} />
         <Route exact path='/spotlight' element={<Spotlight/>} />
         <Route exact path='/signup' element={<Signup/>} />
-        <Route exact path='/venues/:id' element={<VenuePages/>} />
       </Routes>
     </Router>
     </>
